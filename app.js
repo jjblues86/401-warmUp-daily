@@ -31,6 +31,7 @@ const warmUpMap = (array, callback) => {
 };
 const testArrayMap = warmUpMap(numArray, x => x + 1);
 
+
 // Filter
 const warmUpFilter = (array, callback) => {
     let output = [];
@@ -42,6 +43,7 @@ const warmUpFilter = (array, callback) => {
     return output;
 };
 const testArrayFilter = warmUpFilter(numArray, x => x > 5)
+testArrayFilter
 
 // Reduce
 const warmUpReduce = (array, callback, accumulatorInitialValue) => {
